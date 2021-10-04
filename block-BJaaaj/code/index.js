@@ -6,11 +6,17 @@ let lastName = "Stark";
 // Do the following:
 
 // Alert the value of the firstName.
+let firstName = "Rishabh";
 // Alert the value of the lastName.
+let lastName = "Rajput";
 // Assign a new value of `"John"` to firstName.
+let firstName = "John"
 // Assign a new value of `"Snow"` to lastName.
+let lastName = "Snow"
 // Alert the new value of `firstName` and `lastName` by concatenating them
+let fullName = "firstName" + "lastName"
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
+let fullName = "firstName" + " " + "lastName"
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
 // Assign your name as the value of `name`.

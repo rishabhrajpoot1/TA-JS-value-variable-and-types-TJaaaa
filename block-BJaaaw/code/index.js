@@ -6,9 +6,27 @@
   - `if` the number is even print the message " number is even"
   - `if` the number is odd print the message "number is odd"
 */
+let num = Number(prompt(`Please enter the numbers ?`));
+if(num%2==0)
+{
+  alert(`Number is even`);
 
+}
+else{
+  alert(`number is odd`);
+}
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
+ let num1 = Number(prompt(`Please enter the numbers ?`));
+ let num2 = Number(prompt(`Please enter the numbers ?`));
 
+if(num1>num2)
+{
+  alert(` ${num1} is greater than ${num2}`);
+
+}
+else{
+  alert(` ${num2} is greater than ${num1}`);
+}
 // 3. Convert the above code using`?` terniary operator
 
 /*

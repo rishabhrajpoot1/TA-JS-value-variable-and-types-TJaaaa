@@ -10,7 +10,16 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
 👇
 */
-
+//  let age = +prompt ("Enter your age?");
+//  if (12<=age<=55){
+//    alert ("You can participate in the marathon");
+//  } else if (4<=age<=11){
+//    alert ("You are too young to participate in the marathon");
+//  } else if (age<4){
+//    alert ("Hey Kiddo! Can You Walk?");
+//  } else if (age>55){
+//    alert("You are too old to participate in the marthon");
+//  }
 // Loops
 /*
 Given a positive integer `n`. Print the word (hello) in format of heeeello (letter 'e' must be repeated `n` times). Take input from prompt and print the result in alert.
@@ -20,12 +29,33 @@ n = 1 => output: hello
 n = 7 => output: heeeeeeello
 👇
 */
+// let n = +prompt("Please Enter positive integer?");
+// let firstString="h";
+// let midString="";
+// let lastString="llo";
+// for(let i=1;i<=n;i++)
+// {
+//   midString = midString + "e"
+// }
+//  alert(firstString+midString+lastString)
+
 // [Your code goes here]
 
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
+ 
+ let n =+prompt("Please Enter the number");
+ let sum=0;
+ for(let i=1;i<=n;i++)
+ {
+   sum=sum+i;
+ }
+ alert("Sum :${sum}");
+   
+ 
+
 // [Your code goes here]
 
 /* Switch Statement

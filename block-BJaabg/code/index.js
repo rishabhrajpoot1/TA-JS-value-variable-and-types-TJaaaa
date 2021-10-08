@@ -14,5 +14,18 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
-
+for(amount; amount<=bank_balance;) {
+    amount = amount + PHONE_PRICE;
+    if (amount<=SPENDING_THRESHOLD){
+        amount= amount + ACCESSORY_PRICE
+    }
+}
+amount += amount * TAX_RATE;
+console.log(`$ ${amount}`);
+if (amount < bank_balance) {
+    alert(`you can afford the phone`);
+}
+else {
+    alert(`You can not afford the phone`);
+}
 // ⛑ Answer of the above will `$334.76`.
